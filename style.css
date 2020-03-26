@@ -1,0 +1,57 @@
+body {
+  background: #F3EEE3;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 100;
+  padding: 0 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Prata', serif;
+}
+
+#canvas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#legend {
+  display: flex;
+}
+
+#legend div {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#legend div:first-child {
+  background: rgba(15, 66, 117, 0.4);
+  margin-right: 20px;
+}
+
+#legend div:last-child {
+  background: rgba(164, 193, 66, 0.4);
+}
+
+#legend div p {
+  font-family: 'helvetica', sans-serif;
+  text-align: center;
+  font-size: 0.765em;
+  max-width: 100px;
+}
+
+svg text {
+  font-family: 'helvetica', sans-serif;
+  font-weight: 100;
+  font-size: 0.765em;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}

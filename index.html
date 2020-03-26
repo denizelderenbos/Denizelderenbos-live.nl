@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Public outrage vs actual hazard</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Public outrage vs actual hazard</h1>
+    <p>
+      We see disasters on the news almost daily. Most often sparking public outrage, but is this public outrage really justified? In this visualisation you can see the public outrage and the actual risk of a hazard to happen. The sizes of the circles
+      are determined by the difference between the public outrage and the actual hazards.
+    </p>
+  </div>
+
+  <div id="canvas"></div>
+  <div class="container">
+    <div id="legend">
+      <div>
+        <p>Public outrage is less than actual hazard</p>
+      </div>
+      <div>
+        <p>Public outrage is greater than actual hazard</p>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://d3js.org/d3.v5.min.js">
+</script>
+<script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
+<script src="script.js"></script>
+
+</html>
